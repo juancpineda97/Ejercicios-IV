@@ -22,3 +22,12 @@
 - He instalado una versión de centos que viene con mongodb instalado, como se aprecia en la siguiente captura:
 
     ![screenshot_T3_E2_2](capturas/screenshot_T3_E2_2.png)
+
+
+## Ejercicio #3
+### Crear un usuario propio e instalar alguna aplicación tal como nginx en el contenedor creado de esta forma, usando las órdenes propias del sistema operativo con el que se haya inicializado el contenedor.
+
+Para realizar esta tarea, ejecutaré el comando `useradd miusuario` con el contenedor corriendo para crear un nuevo usuario, que comprobaré cómo se ha creado correctamente con el comando `cat /etc/passwd | grep miusuario`. Posteriormente ejecutaré `apt-get update` para actualizar los repositorios, `apt-get install nginx` para instalar nginx y con `nginx -v` compruebo que se ha instalado: 
+
+![screenshot_T3_E3_1](capturas/screenshot_T3_E3_1.png)
+![screenshot_T3_E3_2](capturas/screenshot_T3_E3_2.png)
