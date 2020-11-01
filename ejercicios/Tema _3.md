@@ -32,10 +32,16 @@ Para realizar esta tarea, ejecutaré el comando `useradd miusuario` con el conte
 ![screenshot_T3_E3_1](capturas/screenshot_T3_E3_1.png)
 ![screenshot_T3_E3_2](capturas/screenshot_T3_E3_2.png)
 
-
 ## Ejercicio #4
 ### Crear a partir del contenedor anterior una imagen persistente con commit.
 
 Con el comando `docker commit sweet_rosalind comitdeejemplo` creo un commit sobre el docker creado anteriormente, y con `docker images` se puede ver que efectivamente se ha creado:
 
 ![screenshot_T3_E4_1](capturas/screenshot_T3_E4_1.png)
+
+## Ejercicio #5
+### Crear un Dockerfile para el servicio web que testee la clase que se ha venido desarrollando hasta ahora.
+
+El siguiente Dockerfile serviría para instalar la imagen con la que estamos trabajando:
+
+![screenshot_T3_E5_1](capturas/screenshot_T3_E5_1.png)
