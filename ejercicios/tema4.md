@@ -34,3 +34,11 @@ Como se puede ver, hay un tests que ha resultado fallido, el de mostrar jugadore
 Y, como se puede observar, ahora la aplicación pasa todos los tests correctamente:
 
 ![screenshot_T4_E2_8.png](capturas/screenshot_T4_E2_8.png)
+
+
+## Ejercicio #3
+### Crear algún conjunto de scripts de tests, usando tu lenguaje favorito, y ejecutarlos desde el marco de test más adecuado (o el que más te guste) para ese lenguaje.
+
+Voy a crear un conjunto de scripts de tests para mi aplicación, por lo que se crearán en Javascript usando la biblioteca de aserciones creada anterioremente, [aquí](https://github.com/juancpineda97/LaLigaStats/blob/main/test/equipo-jugador.test.js) se pueden ver los scripts de tests creados. Estos tests se crean para ser ejecutados desde el marco de tests para Javascript **Jest**, y los puedo ejecutar, después de haber instalado Jest, con la orden *npm test*, y se puede ver la ejecución satisfactoria de todos los tests creados:
+
+![screenshot_T4_E3_1.png](capturas/screenshot_T4_E3_1.png)
