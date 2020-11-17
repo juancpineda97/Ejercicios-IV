@@ -104,3 +104,15 @@ Como se puede apreciar, de las versiones probadas, mi aplicación sólo funciona
 El package.json creado es el siguiente:
 
 ![screenshot_T4_E7_1.png](capturas/screenshot_T4_E7_1.png)
+
+
+## Ejercicio #8
+### Automatizar con grunt, gulp u otra herramienta de gestión de tareas en Node la generación de documentación de la librería que se cree usando docco u otro sistema similar de generación de documentación. Previamente, por supuesto, habrá que documentar tal librería.
+
+En mi caso usaré grunt, y en el gruntfile, además de otras tareas, he definido la tarea para crear la documentación de docco, así como otra tarea para borrar esta documentación:
+
+![screenshot_T4_E8_1.png](capturas/screenshot_T4_E8_1.png)
+
+Y, como se puede ver aquí, la documentación se genera correctamente:
+
+![screenshot_T4_E8_2.png](capturas/screenshot_T4_E8_2.png)
