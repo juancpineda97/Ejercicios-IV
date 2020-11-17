@@ -96,3 +96,11 @@ Aprovechando que he instalado diferentes versiones de node en los ejercicios ant
 ![screenshot_T4_E6_3.png](capturas/screenshot_T4_E6_3.png)
 
 Como se puede apreciar, de las versiones probadas, mi aplicación sólo funciona con la versión **15.2.1**
+
+
+## Ejercicio #7
+### Crear una descripción del módulo usando package.json. En caso de que se trate de otro lenguaje, usar el método correspondiente.
+
+El package.json creado es el siguiente:
+
+![screenshot_T4_E7_1.png](capturas/screenshot_T4_E7_1.png)
