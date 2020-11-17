@@ -42,3 +42,31 @@ Y, como se puede observar, ahora la aplicación pasa todos los tests correctamen
 Voy a crear un conjunto de scripts de tests para mi aplicación, por lo que se crearán en Javascript usando la biblioteca de aserciones creada anterioremente, [aquí](https://github.com/juancpineda97/LaLigaStats/blob/main/test/equipo-jugador.test.js) se pueden ver los scripts de tests creados. Estos tests se crean para ser ejecutados desde el marco de tests para Javascript **Jest**, y los puedo ejecutar, después de haber instalado Jest, con la orden *npm test*, y se puede ver la ejecución satisfactoria de todos los tests creados:
 
 ![screenshot_T4_E3_1.png](capturas/screenshot_T4_E3_1.png)
+
+
+## Ejercicio #4
+### Instalar alguno de los entornos virtuales de node.js (o de cualquier otro lenguaje con el que se esté familiarizado) y, con ellos, instalar la última versión existente, la versión minor más actual de la 4.x y lo mismo para la 0.11 o alguna impar (de desarrollo).
+
+Voy a usar nvm para node.js, primero lo instalaré con el comando:
+~~~
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | bash
+~~~
+Y, como se puede ver en la siguiente captura, nvm ya está instalado:
+
+![screenshot_T4_E4_1.png](capturas/screenshot_T4_E4_1.png)
+
+Ahora, instalaré la última versión:
+
+![screenshot_T4_E4_2.png](capturas/screenshot_T4_E4_2.png)
+
+También instalaré la versión minor más actualizada de 4.x:
+
+![screenshot_T4_E4_3.png](capturas/screenshot_T4_E4_3.png)
+
+Y también, la versión minor más actualizada de la 0.11:
+
+![screenshot_T4_E4_4.png](capturas/screenshot_T4_E4_4.png)
+
+Como se puede ver en la siguiente captura, ya tendría instaladas en mi sistema estas versiones junto a la que estaba instalada por defecto en el sistema:
+
+![screenshot_T4_E4_5.png](capturas/screenshot_T4_E4_5.png)
