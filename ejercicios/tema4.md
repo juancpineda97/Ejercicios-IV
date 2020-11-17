@@ -70,3 +70,9 @@ Y también, la versión minor más actualizada de la 0.11:
 Como se puede ver en la siguiente captura, ya tendría instaladas en mi sistema estas versiones junto a la que estaba instalada por defecto en el sistema:
 
 ![screenshot_T4_E4_5.png](capturas/screenshot_T4_E4_5.png)
+
+
+## Ejercicio #5
+### Como ejercicio, algo ligeramente diferente: un servicio web para calificar las empresas en las que hacen prácticas los alumnos.
+
+Puesto que se puede realizar con otra aplicación, lo realizaré con mi aplicación de la asignatura: [LaLigaStats](https://github.com/juancpineda97/LaLigaStats)
