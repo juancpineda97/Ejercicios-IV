@@ -76,3 +76,23 @@ Como se puede ver en la siguiente captura, ya tendría instaladas en mi sistema 
 ### Como ejercicio, algo ligeramente diferente: un servicio web para calificar las empresas en las que hacen prácticas los alumnos.
 
 Puesto que se puede realizar con otra aplicación, lo realizaré con mi aplicación de la asignatura: [LaLigaStats](https://github.com/juancpineda97/LaLigaStats)
+
+
+## Ejercicio #6
+### Ejecutar el programa en diferentes versiones del lenguaje. ¿Funciona en todas ellas?
+
+Aprovechando que he instalado diferentes versiones de node en los ejercicios anteriores, voy a probar a ejecutar mi aplicación con éstas:
+
+- **v0.11.9**
+
+![screenshot_T4_E6_1.png](capturas/screenshot_T4_E6_1.png)
+
+- **v4.9.1**
+
+![screenshot_T4_E6_2.png](capturas/screenshot_T4_E6_2.png)
+
+- **15.2.1**
+
+![screenshot_T4_E6_3.png](capturas/screenshot_T4_E6_3.png)
+
+Como se puede apreciar, de las versiones probadas, mi aplicación sólo funciona con la versión **15.2.1**
