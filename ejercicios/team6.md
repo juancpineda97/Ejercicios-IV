@@ -42,3 +42,9 @@ Cómo se puede apreciar en las siguientes capturas, la aplicación funciona corr
 ![screenshot_T6_E2_2](capturas/screenshot_T6_E2_2.png)
 
 ![screenshot_T6_E2_3](capturas/screenshot_T6_E2_3.png)
+
+
+## Ejercicio #3
+### Programar un microservicio en express (o el lenguaje y marco elegido) que incluya variables como en el caso anterior.
+
+*(Ya realizado en la segunda ruta accesible del ejercicio 2)*
