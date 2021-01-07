@@ -48,3 +48,18 @@ Cómo se puede apreciar en las siguientes capturas, la aplicación funciona corr
 ### Programar un microservicio en express (o el lenguaje y marco elegido) que incluya variables como en el caso anterior.
 
 *(Ya realizado en la segunda ruta accesible del ejercicio 2)*
+
+
+## Ejercicio #4
+### Crear pruebas para las diferentes rutas de la aplicación.
+
+Para realizar los tests sobre la aplicación de los ejercicios anteriores, usaré la librería de aserciones *supertest*, la cuál instalaré en mi repositorio con el comando `npm install --save-dev supertest` .
+Además, para ejecutar los tests, usaré el framework de tests *Jest*.
+
+El código de los tests realizados es el siguiente:
+
+![screenshot_T6_E4_1](capturas/screenshot_T6_E4_1.png)
+
+Y, cómo se puede apreciar en la siguiente captura, la aplicación pasa los tests correctamente:
+
+![screenshot_T6_E4_2](capturas/screenshot_T6_E4_2.png)
