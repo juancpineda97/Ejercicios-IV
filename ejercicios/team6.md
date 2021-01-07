@@ -21,3 +21,24 @@ Se probará el funcionamiento de esta utilidad con el siguiente código, inspira
 Y, para probar el correcto funcionamiento, se almacenará una clave desde la línea de comandos, y después se ejecutará el código antes mostrado, y, como se puede ver, se recupera tanto la clave almacenada por línea de comandos como la clave que almacena el propio código:
 
 ![screenshot_T6_E1_2](capturas/screenshot_T6_E1_2.png)
+
+
+## Ejercicio #2
+### Realizar una aplicación básica que use express para devolver alguna estructura de datos del modelo que se viene usando en el curso.
+
+Programaré una aplicación sencilla con el framework Express en Node aprovechando el repo del ejercicio anterior. Para ello, primero instalaré Express en el repositorio con el comando:
+~~~
+npm install --save-dev express
+~~~
+
+El código de la aplicación es el siguiente:
+
+![screenshot_T6_E2_1](capturas/screenshot_T6_E2_1.png)
+
+En él, se puede apreciar que habrá dos rutas accesibles a través del método **GET**: *localhost:8080/* y *localhost:8080/parametro/[param]* . La primera, devolverá un mensaje indicando que se trata de la aplicación de prueba del ejercicio 2, y la segunda devolverá el mensaje de la primera más el parámetro de la URL que viene después de */parametro/*.
+
+Cómo se puede apreciar en las siguientes capturas, la aplicación funciona correctamente:
+
+![screenshot_T6_E2_2](capturas/screenshot_T6_E2_2.png)
+
+![screenshot_T6_E2_3](capturas/screenshot_T6_E2_3.png)
