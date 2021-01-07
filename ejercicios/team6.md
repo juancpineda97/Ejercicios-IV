@@ -63,3 +63,30 @@ El código de los tests realizados es el siguiente:
 Y, cómo se puede apreciar en la siguiente captura, la aplicación pasa los tests correctamente:
 
 ![screenshot_T6_E4_2](capturas/screenshot_T6_E4_2.png)
+
+
+## Ejercicio #5
+### Experimentar con diferentes gestores de procesos y servidores web front-end para un microservicio que se haya hecho con antelación, por ejemplo en la sección anterior.
+
+Para este ejercicio experimentaré con el gestor de procesos usado en el temario, **pm2**, con la aplicación creada para los ejercicios anteriores. Para ello, primero tengo que instalar pm2 en mi pc, por lo que ejecutaré la orden `npm install -g pm2`.
+
+Una vez instalado, ya puedo lanzar pm2 con la siguiente orden que lanzará dos instancias de mi aplicación:
+~~~
+pm2 start ejercicio2.js -i 2
+~~~
+
+La cuál produce la siguiente salida:
+
+![screenshot_T6_E5_1](capturas/screenshot_T6_E5_1.png)
+
+En ella se puede ver de manera gráfica cómo se han creado dos instancias de la aplicación y más información sobre esta. Ahora, las instancias se estarán ejecutando en segundo plano, por lo que se puede realizar una petición a éstas perfectamente.
+Si se quiere detener la ejecución de estas instancias, se usa el siguiente comando:
+~~~
+pm2 stop ejercicio2.js
+~~~
+
+que produce la siguiente salida:
+
+![screenshot_T6_E5_2](capturas/screenshot_T6_E5_2.png)
+
+en la que se indica que efectivamente se han detenido las dos instancias de la aplicación.
