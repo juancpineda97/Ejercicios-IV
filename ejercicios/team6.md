@@ -14,7 +14,7 @@ Una vez instalado en mi sistema, instalaré el cliente etcd3 en mi repositorio c
 
 Una vez hecho esto, ejecuto la orden `export ETCDCTL_API=3` para que funcione correctamente el cliente de etcd3.
 
-Se probará el funcionamiento de esta utilidad con el siguiente código, inspirado en [esta fuente](https://www.npmjs.com/package/etcd3#quickstart):
+Se probará el funcionamiento de esta utilidad con el siguiente [código](codigos/tema6/ejercicio1.js), inspirado en [esta fuente](https://www.npmjs.com/package/etcd3#quickstart):
 
 ![screenshot_T6_E1_3](capturas/screenshot_T6_E1_3.png)
 
@@ -31,7 +31,7 @@ Programaré una aplicación sencilla con el framework Express en Node aprovechan
 npm install --save-dev express
 ~~~
 
-El código de la aplicación es el siguiente:
+El [código](codigos/tema6/ejercicio2.js) de la aplicación es el siguiente:
 
 ![screenshot_T6_E2_1](capturas/screenshot_T6_E2_1.png)
 
@@ -56,7 +56,7 @@ Cómo se puede apreciar en las siguientes capturas, la aplicación funciona corr
 Para realizar los tests sobre la aplicación de los ejercicios anteriores, usaré la librería de aserciones *supertest*, la cuál instalaré en mi repositorio con el comando `npm install --save-dev supertest` .
 Además, para ejecutar los tests, usaré el framework de tests *Jest*.
 
-El código de los tests realizados es el siguiente:
+El [código](codigos/tema6/ejercicio4.test.js) de los tests realizados es el siguiente:
 
 ![screenshot_T6_E4_1](capturas/screenshot_T6_E4_1.png)
 
