@@ -90,3 +90,11 @@ que produce la siguiente salida:
 ![screenshot_T6_E5_2](capturas/screenshot_T6_E5_2.png)
 
 en la que se indica que efectivamente se han detenido las dos instancias de la aplicación.
+
+
+## Ejercicio #6
+### Usar rake, invoke o la herramienta equivalente en tu lenguaje de programación para programar diferentes tareas que se puedan lanzar fácilmente desde la línea de órdenes un microservicio.
+
+Para este ejercicio usaré *Grunt*, ya que ha sido usado para la aplicación de la asignatura. En esta aplicación, como se puede ver en el [archivo](https://github.com/juancpineda97/LaLigaStats/blob/main/Gruntfile.js) de configuración de Grunt, se han programado diferentes tareas cómo para ejecutar los tests, generar documentación o hacer *clean* :
+
+![screenshot_T6_E6_1](capturas/screenshot_T6_E6_1.png)
